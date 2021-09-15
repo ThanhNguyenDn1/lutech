@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:checkable="false"
+        android:title="@string/nav_tools">
+        <menu>
+            <group
+                android:id="@+id/icon_group_nav"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_file"
+                    android:icon="@drawable/ic_menu_file"
+                    android:title="@string/nav_file" />
+                <item
+                    android:id="@+id/nav_text"
+                    android:icon="@drawable/ic_menu_text"
+                    android:title="@string/nav_text" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:checkable="false"
+        android:title="@string/nav_info">
+        <menu>
+            <group
+                android:id="@+id/icon_group_info"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_help"
+                    android:icon="@drawable/ic_menu_help"
+                    android:title="@string/nav_help" />
+                <item
+                    android:id="@+id/sub"
+                    android:icon="@drawable/ic_prenium"
+                    android:title="Premium" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_menu_about"
+                    android:title="@string/nav_about" />
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="@string/nav_settings" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name" translatable="false">LTDeadHash</string>
+    <string name="preferences_file_key" translatable="false">deadhashsettings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_file">File</string>
+    <string name="nav_text">Text</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_info">Info</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_about">About</string>
+    <string name="card_file">File:</string>
+    <string name="card_file_path">File path</string>
+    <string name="button_generate">Calculate</string>
+    <string name="card_open_folder">Open folder</string>
+    <string name="copy_data">Copy data</string>
+    <string name="toast_data_copied">Data copied to clipboard!</string>
+    <string name="text_compare">Compare:</string>
+    <string name="text_compare_hint">Place your hash here</string>
+    <string name="text_compare_hash">Compare hash</string>
+    <string name="toast_back_again">Press \'BACK\' again to exit.</string>
+    <string name="toast_hash_match">Hash matches your input!</string>
+    <string name="toast_hash_mismatch">Hash does not match your input!</string>
+    <string name="text_content_hint">Enter your text here</string>
+    <string name="toast_error_notext">Please enter some text first!</string>
+    <string name="button_website">Website</string>
+    <string name="button_support">Support</string>
+    <string name="text_help">Generating file hashes can only be done when DeadHash has been given permission to read your storage. Generating hashes for larger files may take a while. This depends entirely on the processing power of your device.\n\nGenerating text hashes does not require any additional permissions to be granted. Generating hashes for larger strings may take a while. This depends entirely on the processing power of your device.\n\nIf you happen to come across a bug or if you need support, you can always contact us!</string>
+    <string name="nav_tools">Tools</string>
+    <string name="text_about">DeadHash was created by DeadLine. This app can be used to generate hashes of files and strings.\n\nNo ads or tracking devices are included in this release. All requested permissions are required in order to properly use this app.\n\nAll images are courtesy of Google.\n\nCopyright © 2021 CodeDead</string>
+    <string name="toast_settings_reset">All settings have been reset!</string>
+    <string name="toast_settings_save">All settings have been saved!</string>
+    <string name="text_interface">Interface</string>
+    <string name="text_language">Language:</string>
+    <string name="text_hash_generator">Hash generator</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_save">Save</string>
+    <string name="md5" translatable="false">MD5</string>
+    <string name="sha_1" translatable="false">SHA-1</string>
+    <string name="sha_224" translatable="false">SHA-224</string>
+    <string name="sha_256" translatable="false">SHA-256</string>
+    <string name="sha_384" translatable="false">SHA-384</string>
+    <string name="sha_512" translatable="false">SHA-512</string>
+    <string name="crc32" translatable="false">CRC32</string>
+    <string name="text_send_mail">Send us an e-mail</string>
+    <string name="hint_launcher_icon" translatable="false">Launcher icon</string>
+    <string name="alert_review_title">Review</string>
+    <string name="alert_review_text">Consider leaving a review if you like this app!</string>
+    <string name="text_information">Information</string>
+    <string name="hint_facebook_logo" translatable="false">Facebook logo</string>
+    <string name="hint_twitter_logo" translatable="false">Twitter logo</string>
+    <string name="hint_website_logo" translatable="false">Website logo</string>
+    <string name="alert_review_never">Never</string>
+    <string name="string_no_clipboard_access">Unable to get access to your clipboard!</string>
+    <string name="error_playstore">Unable to open the Play Store!</string>
+    <string name="error_website">Unable to open website!</string>
+    <string name="dialog_select_file">Select a file</string>
+    <string name="error_open_file">Unable to open the selected file!</string>
+    <string name="error_copy_file">Unable to create a copy of the selected file!</string>
+    <string name="error_no_file">No file was selected!</string>
+    <string name="theme">Theme</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="defaultTheme">Default</string>
+
+    <string-array name="array_languages" translatable="false">
+        <item>English</item>
+        <item>Nederlands</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>Italiano</item>
+        <item>Português (Brasil)</item>
+    </string-array>
+</resources>
